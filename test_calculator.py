@@ -1,3 +1,7 @@
+# https://github.com/kyrapaim/lab10-KP-AB.git
+# Partner 1: Kyra Paim
+# Partner 2: Amkia Beaton
+
 import unittest
 from calculator import *
 
