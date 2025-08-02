@@ -42,6 +42,8 @@ def log(a, b):
     elif a <= 0 or a == 1 or b <= 0:
         if a == 1:
             raise ValueError('Error! Base cannot be 1!')
+        elif b == 0:
+            raise ZeroDivisionError('Error! Base cannot be 0!')
         else:
             raise ValueError('Error! Argument cannot be 0!')
     return math.log(b, a)
