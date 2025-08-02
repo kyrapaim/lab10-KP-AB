@@ -18,16 +18,10 @@ class TestCalculator(unittest.TestCase):
 
     ######## Partner 1
     # def test_multiply(self): # 3 assertions
-    #     self.assertEqual(self.calculator.mul(1, 2)
-    #     self.assertEqual(self.calculator.mul(100, 500), 50000)
-    #     self.assertEqual(self.calculator.mul(-1, -20), 20)
     #     fill in code
 
     # def test_divide(self): # 3 assertions
     #     fill in code
-    #     self.assertEqual(self.calculator.div(1, 2), 2.0)
-    #     self.assertEqual(self.calculator.div(100, 500), 5.0)
-    #     self.assertEqual(self.calculator.div(-1, -20), 20.0)
     # ##########################
 
     ######## Partner 2
