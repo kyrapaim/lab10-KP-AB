@@ -62,7 +62,7 @@ class TestCalculator(unittest.TestCase):
             log(0, 5)
 
     def test_hypotenuse(self): # 3 assertions
-        self.assertEqual((exp(2,2) + exp(3,3)), 13)
+        self.assertEqual((exp(2,2) + exp(3,2)), 13)
         self.assertEqual((exp(5,2)+ exp(4,2)), 41)
         self.assertEqual((exp(6,2) + exp(2,2)), 40)
 
