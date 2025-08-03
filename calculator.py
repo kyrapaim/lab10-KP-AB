@@ -4,11 +4,20 @@
 
 import math
 
+
+def square_root(a):
+    if a < 0:
+        raise ValueError("The square root of a is negative.")
+    return math.sqrt(a)
+
+def hypotenuse(a,b):
+    return math.hypot(a,b)
+
 def add(a,b):
     return a+b
 
 def sub(a,b):
-    return
+    return a - b
 
 def mul(a,b):
     return a*b
