@@ -22,13 +22,6 @@ def subtract(a,b):
 def mul(a,b):
     return a*b
 
-def logarithm(a,b):
-    if a <= 0:
-        raise ValueError("Log Base must be positive")
-    if b<= 0:
-        raise ValueError('Log arg must be positive')
-    return math.log(b,a)
-
 def exp(a,b):
     return a ** b
 
@@ -47,7 +40,7 @@ def div(a, b):
         raise ZeroDivisionError('Error! Cannot divide by 0!')
     return b / a
 
-def log(a, b):
+def logarithm(a, b):
     if not isinstance(a, int) and not isinstance(a, float):
         raise ValueError('Must be an int or float')
     elif not isinstance(b, int) and not isinstance(b, float):
