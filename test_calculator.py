@@ -67,8 +67,8 @@ class TestCalculator(unittest.TestCase):
         self.assertEqual((exp(6,2) + exp(2,2)), 40)
 
 
-    def test_sqrt(self): # 3 assertions
-        self.assertAlmostEqual(exp(4, 0.5), 4)
+    def test_square_root(self): # 3 assertions
+        self.assertAlmostEqual(exp(4, 0.5), 2)
         self.assertAlmostEqual(exp(16, 0.5), 4)
         self.assertAlmostEqual(exp(25, 0.5), 5)
 
