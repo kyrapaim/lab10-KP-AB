@@ -61,6 +61,16 @@ class TestCalculator(unittest.TestCase):
         with self.assertRaises(ValueError):
             log(0, 5)
 
+    def test_hypotenuse(self): # 3 assertions
+        self.assertEqual((exp(2,2) + exp(3,3)), 13)
+        self.assertEqual((exp(5,2)+ exp(4,2)), 41)
+        self.assertEqual((exp(6,2) + exp(2,2)), 40)
+
+
+    def test_sqrt(self): # 3 assertions
+        self.assertAlmostEqual(exp(4, 0.5), 4)
+        self.assertAlmostEqual(exp(16, 0.5), 4)
+        self.assertAlmostEqual(exp(25, 0.5), 5)
 
 
 # Do not touch this
