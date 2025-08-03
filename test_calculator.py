@@ -62,15 +62,15 @@ class TestCalculator(unittest.TestCase):
             log(0, 5)
 
     def test_hypotenuse(self): # 3 assertions
-        self.assertEqual((exp(2,2) + exp(3,2)), 13)
-        self.assertEqual((exp(5,2)+ exp(4,2)), 41)
-        self.assertEqual((exp(6,2) + exp(2,2)), 40)
+        self.assertNotEqual(hypotenuse(2,2), 600)
+        self.assertEqual(hypotenuse(4,3), 5)
+        self.assertAlmostEqual(hypotenuse(2,2), 2.8)
 
 
     def test_square_root(self): # 3 assertions
-        self.assertAlmostEqual(exp(4, 0.5), 2.0)
-        self.assertAlmostEqual(exp(16, 0.5), 4.0)
-        self.assertAlmostEqual(exp(25, 0.5), 5.0)
+        self.assertEqual(square_root(4), 2)
+        self.assertEqual(square_root(16), 4)
+        self.assertEqual(square_root(25), 5)
 
 
 # Do not touch this
